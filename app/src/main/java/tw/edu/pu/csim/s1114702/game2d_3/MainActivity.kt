@@ -50,7 +50,6 @@ fun Start(m: Modifier, game: Game){
     var counter2 by remember{ mutableStateOf(0) }
     var msg by remember { mutableStateOf("遊戲開始") }
 
-
     Image(
         painter = painterResource(id = R.drawable.forest),
         contentDescription = "背景圖",
